@@ -2,6 +2,19 @@ body{
     background: #E5E5E5;
     font-family: 'Inter', sans-serif;
 }
+a{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+
+    position: absolute;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+}
 main{
     display: block;
     position: absolute;
