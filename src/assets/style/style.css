@@ -161,9 +161,7 @@ flex-grow: 0;
 }
 #sem-texto-img{
     position: absolute;
-    width: 336px;
-    height: 304px;
     left: 5rem;
-    top: 283px;
+    top: 12rem;
 
 }
