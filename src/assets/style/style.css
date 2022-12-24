@@ -165,7 +165,17 @@ flex-grow: 0;
     top: 12rem;
 
 }
-
+#frame-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 16px;
+    position: absolute;
+    
+    left: 7.5rem;
+    top: 33.5rem;
+}
 #no-text-1{
     font-family: 'Inter';
     font-style: normal;
