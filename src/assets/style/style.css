@@ -22,37 +22,17 @@ main{
     height: 90%;
     margin: 3rem 0;
 }
-/*input[type=text]{
-    background-color: #ffffff00;
-    border: none;
-
-    position: absolute;
-    width: 680px;
-    height: 48px;
-    left: 240px;
-    top: 168px;
-
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 32px;
-    line-height: 150%;
-
-    color: #0A3871;
-}
-input[type=text]::placeholder{
-    color: #0A3871;
-}*/
-
+/*TEXTAREA DE ENTRADA DE TEXTO*/
 #entrada{
     position: absolute;
     position: absolute;
     width: 42.5rem;
-    height: 3rem;
+    height: 34rem;
     left: 15rem;
     top: 10.5rem;
     background-color: #ffffff00;
     border: none;
+    resize: none;
 
     font-style: normal;
     font-weight: 400;
@@ -60,14 +40,22 @@ input[type=text]::placeholder{
     line-height: 150%;
     
     color: #0A3871;
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }
 
 #entrada::placeholder{
     color: #0A3871;
 }
+
 #entrada:focus{
     box-shadow: 0 0 0 0;
     outline: 0;
+}
+
+#entrada::-webkit-scrollbar{
+    display: none;
 }
 
 /*INFO DE ALERTA*/
