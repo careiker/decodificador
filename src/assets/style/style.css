@@ -62,6 +62,13 @@ input[type=text]::placeholder{
     color: #0A3871;
 }
 
+#entrada::placeholder{
+    color: #0A3871;
+}
+#entrada:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
 
 /*INFO DE ALERTA*/
 .alert{
