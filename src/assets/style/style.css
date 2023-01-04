@@ -86,61 +86,56 @@ button{
     cursor: pointer;
 }
 .criptar{
+    /* Auto layout */
+
     display: flex;
     flex-direction: row;
+    
     align-items: flex-start;
     padding: 24px;
     gap: 8px;
-    
+
     width: 328px;
     height: 67px;
-    
+
+    color: #FFFFFF; 
+
     /* Dark blue/dark-blue-300 */
-    
+
     background: #0A3871;
     border-radius: 24px;
-
-    /* Text White */
-
-    color: #FFFFFF;
-    
-    /* Inside auto layout */
-    
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-
-    }
+}
 .descriptar{
+    color: #0A3871;
+    
+
     box-sizing: border-box;
 
-/* Auto layout */
+    /* Auto layout */
 
-display: flex;
-flex-direction: row;
-align-items: flex-start;
-padding: 24px;
-gap: 8px;
+    display: flex;
+    flex-direction: row;
+    
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
 
-width: 328px;
-height: 67px;
+    width: 328px;
+    height: 67px;
 
-/* Light gray */
+    /* Light gray */
 
-background: #D8DFE8;
-/* Dark blue/dark-blue-300 */
+    background: #D8DFE8;
+    /* Dark blue/dark-blue-300 */
 
-border: 1px solid #0A3871;
-border-radius: 24px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
 
-/* Text Dark blue/dark-blue-300 */
-color: #0A3871;
+    /* Inside auto layout */
 
-/* Inside auto layout */
-
-flex: none;
-order: 1;
-flex-grow: 0;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
 }
 
 /*CAMPO DE TEXTO VAZIO*/
