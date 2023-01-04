@@ -51,6 +51,15 @@ input[type=text]::placeholder{
     height: 3rem;
     left: 15rem;
     top: 10.5rem;
+    background-color: #ffffff00;
+    border: none;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 2em;
+    line-height: 150%;
+    
+    color: #0A3871;
 }
 
 
