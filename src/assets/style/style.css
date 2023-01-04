@@ -90,7 +90,7 @@ button{
 
     display: flex;
     flex-direction: row;
-    
+    justify-content: center;
     align-items: flex-start;
     padding: 24px;
     gap: 8px;
@@ -115,7 +115,7 @@ button{
 
     display: flex;
     flex-direction: row;
-    
+    justify-content: center;
     align-items: flex-start;
     padding: 24px;
     gap: 8px;
