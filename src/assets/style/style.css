@@ -1,6 +1,8 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
 body{
     background: #E5E5E5;
-    font-family: 'Inter', sans-serif;
 }
 a{
     display: flex;
@@ -165,11 +167,10 @@ button{
     
     border-radius: 32px;
 
-    color: #0A3871;
+    color: #495057;
 
     -ms-overflow-style: none;
     scrollbar-width: none;
-
 }
 
 #mensagem:focus{
@@ -198,11 +199,8 @@ button{
     font-weight: 700;
     font-size: 24px;
     line-height: 120%;
-    /* or 29px */
-
+    
     text-align: center;
-
-    /* Gray/gray-500 */
 
     color: #343A40;
 }
