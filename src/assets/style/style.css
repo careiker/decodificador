@@ -154,28 +154,33 @@ button{
     flex-grow: 0;
 }
 
-/*CAMPO DE TEXTO VAZIO*/
-#campo-de-texto{
+/*CAMPO DE RETORNO MENSAGEM*/
+#mensagem{
     position: absolute;
     width: 25%;
     height: 100%;
-    left: 70rem;
+    left: 70rem; 
+    resize: none;
+
     
-
-    /* White */
-
-    background: #FFFFFF;
-    /* shadow */
-
-    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     border-radius: 32px;
-}
-#sem-texto-img{
-    position: absolute;
-    left: 5rem;
-    top: 12rem;
+
+    color: #0A3871;
+
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 
 }
+
+#mensagem:focus{
+    box-shadow: 0 0 0 0;
+    outline: 0;
+}
+
+#mensagem::-webkit-scrollbar{
+    display: none;
+}
+
 #frame-text{
     display: flex;
     flex-direction: column;
