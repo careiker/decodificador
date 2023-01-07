@@ -25,3 +25,14 @@
   const encryptedString = encryptVowels(originalString);
   console.log(encryptedString); // 'h2ll4 w4rld'*/
 
+function substituirVogais() {
+  var texto = document.getElementById("entrada").value;
+
+  texto = texto.replace(/a/gi, "1");
+  texto = texto.replace(/e/gi, "2");
+  texto = texto.replace(/i/gi, "3");
+  texto = texto.replace(/o/gi, "4");
+  texto = texto.replace(/u/gi, "5");
+
+  document.getElementById("mensagem").value = texto;
+}
