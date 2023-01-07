@@ -49,3 +49,22 @@ const mensagem = document.querySelector(".output");
 
     return stringEncriptada;
   }
+
+  function btnDescrypt() {
+    const textoDescriptado = descriptar(inputTexto.value)
+    mensagem.value = textoDescriptado
+    /*mensagem.style.backgroundImage = "none"*/
+  }
+
+  function descriptar(stringDescriptada) {
+    let matriz = [["enter", "e"],["imes", "i"], ["ai", "a"], ["ober", "o"],["ufat", "u"]];
+    stringDescriptada = stringDescriptada.toLowerCase();
+
+    for(let i = 0; i < matriz.length; i++) {
+      if(stringDescriptada.includes(matriz[i][0])) {
+        stringDescriptada = stringDescriptada.replaceAll(matriz[i][0], matriz[i][1])
+      }
+    }
+
+    return stringDescriptada;
+  }
