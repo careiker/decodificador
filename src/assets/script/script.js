@@ -28,3 +28,24 @@ function descriptografarVogais() {
   document.getElementById('mensagem').value = texto;
 }*/
 
+const inputTexto = document.querySelector(".input");
+const mensagem = document.querySelector(".output");
+
+  function btnCrypt() {
+    const textoEncriptado = encriptar(inputTexto.value)
+    mensagem.value = textoEncriptado
+    /*mensagem.style.backgroundImage = "none"*/
+  }
+
+  function encriptar(stringEncriptada) {
+    let matriz = [["e", "enter"],["i", "imes"], ["a", "ai"], ["o", "ober"],["u", "ufat"]];
+    stringEncriptada = stringEncriptada.toLowerCase();
+
+    for(let i = 0; i < matriz.length; i++) {
+      if(stringEncriptada.includes(matriz[i][0])) {
+        stringEncriptada = stringEncriptada.replaceAll(matriz[i][0], matriz[i][1])
+      }
+    }
+
+    return stringEncriptada;
+  }

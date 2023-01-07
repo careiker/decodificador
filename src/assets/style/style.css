@@ -25,7 +25,7 @@ main{
     margin: 3rem 0;
 }
 /*TEXTAREA DE ENTRADA DE TEXTO*/
-#entrada{
+.input{
     position: absolute;
     position: absolute;
     width: 42.5rem;
@@ -47,16 +47,16 @@ main{
     scrollbar-width: none;
 }
 
-#entrada::placeholder{
+.input::placeholder{
     color: #0A3871;
 }
 
-#entrada:focus{
+.input:focus{
     box-shadow: 0 0 0 0;
     outline: 0;
 }
 
-#entrada::-webkit-scrollbar{
+.input::-webkit-scrollbar{
     display: none;
 }
 
@@ -157,7 +157,7 @@ button{
 }
 
 /*CAMPO DE RETORNO MENSAGEM*/
-#mensagem{
+.output{
     position: absolute;
     width: 25%;
     height: 100%;
@@ -173,11 +173,11 @@ button{
     scrollbar-width: none;
 }
 
-#mensagem:focus{
+.output:focus{
     box-shadow: 0 0 0 0;
     outline: 0;
 }
 
-#mensagem::-webkit-scrollbar{
+.output::-webkit-scrollbar{
     display: none;
 }
