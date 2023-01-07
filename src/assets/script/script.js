@@ -1,5 +1,5 @@
 
-function criptografarVogais() {
+/*function criptografarVogais() {
   var texto = document.getElementById("entrada").value;
   
   texto = texto.replace(/a/g, "ai");
@@ -23,4 +23,4 @@ function descriptografarVogais() {
   texto = texto.replace(/ufat/g, "u");
 
   document.getElementById("mensagem").value = texto;
-}
+}*/
