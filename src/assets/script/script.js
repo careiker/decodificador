@@ -2,14 +2,17 @@
 const inputTexto = document.querySelector(".input");
 const mensagem = document.querySelector(".output");
 
-/*FUNÇÃO PARA CRIPTOGRAFAR*/
+/*FUNÇÃO PARA BOTÃO DE CRIPTOGRAFAR*/
   function btnCrypt() {
     const textoEncriptado = encriptar(inputTexto.value)
     mensagem.value = textoEncriptado
     mensagem.style.backgroundImage = "none"
+
+    /*DISPLAY PARA APARECER BOTÃO DE COPIAR */
     document.querySelector('.botao-copiar').style.display = 'block';
   }
 
+  /*FUNÇÃO PARA CRIPTOGRAFAR*/
   function encriptar(stringEncriptada) {
     let matriz = [["e", "enter"],["i", "imes"], ["a", "ai"], ["o", "ober"],["u", "ufat"]];
     stringEncriptada = stringEncriptada.toLowerCase();
@@ -23,14 +26,17 @@ const mensagem = document.querySelector(".output");
     return stringEncriptada;
   }
 
-  /*FUNÇÃO PARA DESCRIPTOGRAFAR*/
+ /*FUNÇÃO PARA BOTÃO DE DESCRIPTOGRAFAR*/
   function btnDescrypt() {
     const textoDescriptado = descriptar(inputTexto.value)
     mensagem.value = textoDescriptado
     mensagem.style.backgroundImage = "none"
+    
+    /*DISPLAY PARA APARECER BOTÃO DE COPIAR */
     document.querySelector('.botao-copiar').style.display = 'block';
   }
-
+ 
+  /*FUNÇÃO PARA DESCRIPTOGRAFAR*/
   function descriptar(stringDescriptada) {
     let matriz = [["enter", "e"],["imes", "i"], ["ai", "a"], ["ober", "o"],["ufat", "u"]];
     stringDescriptada = stringDescriptada.toLowerCase();
@@ -44,6 +50,7 @@ const mensagem = document.querySelector(".output");
     return stringDescriptada;
   }
 
+/*FUNÇÃO PARA BOTÃO COPIAR*/
 const botaoCopiar = document.querySelector('.botao-copiar');
 const alvoCopia = document.querySelector('.output');
 
