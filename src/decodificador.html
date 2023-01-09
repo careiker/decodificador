@@ -15,10 +15,10 @@
     <a href="#">
         <img src="images/logo.png">
     </a>
-    <main>
+<main>
     
-    <section>
-        <textarea name="entrada" id="input" class="input" cols="30" rows="10" 
+<section>
+        <textarea name="entrada" id="input" class="input" required
         placeholder="Digite seu texto"></textarea> 
         
         <h6 class="alert">
@@ -26,19 +26,19 @@
             Apenas letras minúsculas e sem acento
         </h6>
 
-        <div id="div-button">
-            <button id="criptar" class="criptar" onclick="btnCrypt()">Criptografar</button>
+    <div id="div-button">
+        <button type="submit" id="criptar" class="criptar" onclick="btnCrypt()">Criptografar</button>
             
-            <button id="descriptar" class="descriptar" onclick="btnDescrypt()">Descriptografar</button>
-        </div>
-    </section>
+        <button type="submit" id="descriptar" class="descriptar" onclick="btnDescrypt()">Descriptografar</button>
+    </div>
+</section>
 
-    <section>
-        <textarea name="mensagem" class="output" cols="30" rows="10" readonly></textarea>
+<section>
+        <textarea name="mensagem" class="output" readonly></textarea>
         <button class="botao-copiar" style="display:none">Copiar</button>
-    </section>
+</section>
 
-    </main>
+</main>
 
     <script src="assets/script/script.js"></script>
 </body>
