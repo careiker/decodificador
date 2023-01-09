@@ -158,8 +158,6 @@ button{
 
 /*CAMPO DE RETORNO MENSAGEM*/
 .output{
-    background-image:url(/src/images/img.png);
-
     position: absolute;
     width: 25rem;
     height: 48.6rem;
@@ -168,6 +166,8 @@ button{
     resize: none;
     border: none;
     border-radius: 32px;
+
+    
 
     font-weight: 400;
     font-size: 24px;
