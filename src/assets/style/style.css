@@ -189,6 +189,11 @@ button{
     display: none;
 }
 
+.output::selection {
+    background: transparent;
+    color: inherit;
+}
+
 /*BOTÃO DE COPIAR*/
 
 .botao-copiar{

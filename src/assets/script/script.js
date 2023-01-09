@@ -59,6 +59,7 @@ const alvoCopia = document.querySelector('.output');
   botaoCopiar.addEventListener('click', () => {
     alvoCopia.select();
     document.execCommand('copy');
-});
+    alert("Texto copiado!");
+  });
 
     
