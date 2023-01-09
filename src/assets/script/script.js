@@ -41,3 +41,11 @@ const mensagem = document.querySelector(".output");
 
     return stringDescriptada;
   }
+
+const botaoCopiar = document.querySelector('#botao-copiar');
+const alvoCopia = document.querySelector('.output');
+
+  botaoCopiar.addEventListener('click', () => {
+    alvoCopia.select();
+    document.execCommand('copy');
+});
