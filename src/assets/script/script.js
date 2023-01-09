@@ -59,3 +59,5 @@ const alvoCopia = document.querySelector('.output');
     alvoCopia.select();
     document.execCommand('copy');
 });
+
+    
