@@ -7,6 +7,7 @@ const mensagem = document.querySelector(".output");
     const textoEncriptado = encriptar(inputTexto.value)
     mensagem.value = textoEncriptado
     mensagem.style.backgroundImage = "none"
+    document.querySelector('.botao-copiar').style.display = 'block';
   }
 
   function encriptar(stringEncriptada) {
@@ -27,6 +28,7 @@ const mensagem = document.querySelector(".output");
     const textoDescriptado = descriptar(inputTexto.value)
     mensagem.value = textoDescriptado
     mensagem.style.backgroundImage = "none"
+    document.querySelector('.botao-copiar').style.display = 'block';
   }
 
   function descriptar(stringDescriptada) {
@@ -42,7 +44,7 @@ const mensagem = document.querySelector(".output");
     return stringDescriptada;
   }
 
-const botaoCopiar = document.querySelector('#botao-copiar');
+const botaoCopiar = document.querySelector('.botao-copiar');
 const alvoCopia = document.querySelector('.output');
 
   botaoCopiar.addEventListener('click', () => {

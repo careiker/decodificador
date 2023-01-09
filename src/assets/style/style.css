@@ -188,3 +188,16 @@ button{
 .output::-webkit-scrollbar{
     display: none;
 }
+
+/*BOTÃO DE COPIAR*/
+
+.botao-copiar{
+    cursor: pointer;
+    position: absolute;
+    width: 336px;
+    height: 67px;
+    left: 1200px;
+    top: 791px;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+}
