@@ -167,7 +167,9 @@ button{
     border: none;
     border-radius: 32px;
 
-    
+    background-image: url("img.png");
+    background-repeat: no-repeat;
+    background-position: center;
 
     font-weight: 400;
     font-size: 24px;
