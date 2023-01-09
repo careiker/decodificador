@@ -1,4 +1,5 @@
 
+/*FUNÇÕES DE CRIPTOGRAFIA*/
 const inputTexto = document.querySelector(".input");
 const mensagem = document.querySelector(".output");
 
