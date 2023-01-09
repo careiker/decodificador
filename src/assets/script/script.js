@@ -1,8 +1,9 @@
 
-/*FUNÇÕES DE CRIPTOGRAFIA*/
+
 const inputTexto = document.querySelector(".input");
 const mensagem = document.querySelector(".output");
 
+  /*FUNÇÕES DE CRIPTOGRAFIA*/
 /*FUNÇÃO PARA BOTÃO DE CRIPTOGRAFAR*/
   function btnCrypt() {
     const textoEncriptado = encriptar(inputTexto.value)
