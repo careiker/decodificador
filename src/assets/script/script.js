@@ -6,7 +6,7 @@ const mensagem = document.querySelector(".output");
   function btnCrypt() {
     const textoEncriptado = encriptar(inputTexto.value)
     mensagem.value = textoEncriptado
-    /*mensagem.style.backgroundImage = "none"*/
+    mensagem.style.backgroundImage = "none"
   }
 
   function encriptar(stringEncriptada) {
@@ -26,7 +26,7 @@ const mensagem = document.querySelector(".output");
   function btnDescrypt() {
     const textoDescriptado = descriptar(inputTexto.value)
     mensagem.value = textoDescriptado
-    /*mensagem.style.backgroundImage = "none"*/
+    mensagem.style.backgroundImage = "none"
   }
 
   function descriptar(stringDescriptada) {
