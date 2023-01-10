@@ -3,9 +3,16 @@
 const inputTexto = document.querySelector(".input");
 const mensagem = document.querySelector(".output");
 
-  /*FUNÇÕES DE CRIPTOGRAFIA*/
+
+/*FUNÇÕES DE CRIPTOGRAFIA*/
+
 /*FUNÇÃO PARA BOTÃO DE CRIPTOGRAFAR*/
   function btnCrypt() {
+    /*VERIFICA SE TEXTAREA ESTÁ VAZIO E ALERTA USUÁRIO */
+    if (inputTexto.value.trim() === "") {
+      alert("Por favor, insira um texto antes de usar a criptografia");
+      return;
+    }
     const textoEncriptado = encriptar(inputTexto.value)
     mensagem.value = textoEncriptado
     mensagem.style.backgroundImage = "none"
@@ -30,6 +37,12 @@ const mensagem = document.querySelector(".output");
 
  /*FUNÇÃO PARA BOTÃO DE DESCRIPTOGRAFAR*/
   function btnDescrypt() {
+    /*VERIFICA SE TEXTAREA ESTÁ VAZIO E ALERTA USUÁRIO */
+    if (inputTexto.value.trim() === "") {
+      alert("Por favor, insira um texto antes de usar a descriptografia");
+      return;
+    }
+    
     const textoDescriptado = descriptar(inputTexto.value)
     mensagem.value = textoDescriptado
     mensagem.style.backgroundImage = "none"
