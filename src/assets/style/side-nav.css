@@ -14,25 +14,60 @@ body {
     transition: 0.5s;
     padding-top: 60px;
   }
-  
+  .contato {
+    position: absolute;
+    color: #818181;
+    font-size: 2em;
+    left: 10%;
+    
+  }
   .linkedin {
-    padding: 8px 8px 8px 32px;
+    width: 9rem;
+    top: 15%; 
+    left: 25%;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 1.2em;
     color: #818181;
     display: block;
     transition: 0.3s;
   }
   .github {
-    top: 2%;
-    padding: 8px 8px 8px 32px;
+    width: 9rem;
+    top: 19%;
+    left: 25%;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 1.2em;
     color: #818181;
     display: block;
     transition: 0.3s;
   }
-  
+  .instagram {
+    width: 9rem;
+    top: 23%;
+    left: 25%;
+    text-decoration: none;
+    font-size: 1.2em;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  .v2 {
+    font-size: 2em;
+    top: 50%;
+    position: absolute;
+    color: #818181;
+    font-size: 2em;
+    left: 10%;
+  }
+  .outro-site {
+    top: 58%;
+    left: 30%;
+    display: block;
+
+  }
+  .outro-site img {
+    width: 60%;
+  }
   .sidenav a:hover {
     color: #f1f1f1;
   }
