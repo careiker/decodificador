@@ -23,4 +23,8 @@ A letra "u" é convertida para "ufat"
 ## Autores
 
 - [@Carlos-Reiker](https://github.com/Carlos-Reiker)
+
+## Observação
+
+Responsividade não aplicada.
  
